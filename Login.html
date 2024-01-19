@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Log In</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Learnova.</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <a href="profile.html"><div id="user-btn" class="fas fa-user" ></div></a>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times">Hello</i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-7.jpg" class="image" alt="">
+      <h3 class="name">Ms. X</h3>
+      <p class="role">student</p>
+      <a href="Login.html" class="btn1">Log In</a>
+      <a href="Sign Up.html" class="btn2">Sign up</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span> About</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teacher.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+   </nav>
+
+</div>
+
+<table class="login1">
+   <tr>
+       <td class="td1"><img class="homeimage" src="images/login.png" /></td>
+       <td class="td2"><div class="txt">
+         <div class="login">
+            <div class="row">
+               <form action="" method="post">
+                  <h1>Login</h1>
+                  <h3>Username: </h3>
+                  <input type="text" placeholder="Enter your Username here" name="Username" required maxlength="15" class="boxes">
+                  <h3>Password: </h3>
+                  <input type="password" placeholder="Enter your password here" name="Password" required maxlength="20" class="boxes">
+                  <a href="home.html"><button class="inline-btn3" >Login</button></a>
+                  <h4>New to Learnova? <a href="Sign Up.html">Sign up Now</a></h4>
+               </form>
+         
+            </div>
+         </div>
+      </td>
+   </tr>
+</table>
+
+
+
+<footer class="footer">
+
+   <span>Zainab Eman 22F-3738 || Noor Fatima 22F-3634 || Imama Kainat 22F-3661</span>
+
+</footer>
+
+<!--js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
